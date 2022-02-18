@@ -28,7 +28,7 @@ h2{
 }
 .container { 
     display: grid;
-    margin: 2rem;
+    margin: 4rem;
 }
 section{ 
     margin: 2rem;
@@ -86,7 +86,9 @@ input{
 /*footer*/
 .foot-pag{
     width: 100%;
-    background-color: #f1c40f;
+    background: #BA8B02;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #181818, #BA8B02);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #181818, #BA8B02); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     padding: 2rem;
     text-align: center;
 }

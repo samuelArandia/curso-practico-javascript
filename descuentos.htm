@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/styleFiguras.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+Antique:wght@300;500&display=swap" rel="stylesheet"> 
+    <title>Porcentajes y Descuentos </title>
+</head>
+<body>
+    <header>
+        <h1>Porcentajes y Descuentos </h1>
+    </header>
+    <div class="container">
+        <section>
+                <h2>Calcula precio a pagar de tus productos con tu cupon</h2>
+            <form>
+                <label for="inputPrice">Escribe el precio de tu producto:</label>
+                <input id="inputPrice" type="number">
+
+                <label for="InputCoupon">Escribe tu cupon valido:</label>
+                <input id="InputCoupon" type="text">
+
+                <h2 id="resultPrice"></h2>
+
+                <button type="button" onclick="onclickButtonPrice()">
+                    Carcular el precio con descuento 
+                </button>
+            </form>
+        </section>
+        <section>
+                <h2> Veamos si tu cupon es valido </h2>
+            <form>
+                <label for="inputPriceValid">Escribe el precio de tu producto:</label>
+                <input id="inputPriceValid" type="number">
+
+                <label for="InputCouponValid">Escribe tu cupon aqui:</label>
+                <input id="InputCouponValid" type="text">
+
+                <h2 id="resultPriceValid"></h2>
+
+                <button type="button" onclick="onclickButtonPriceValid()">
+                    Carcular el precio con descuento 
+                </button>
+            </form>
+        </section>
+        <section>
+            <h2> Veamos si tu cupon es valido  con otro metodo: </h2>
+            <form>
+                <label for="inputPriceArrow">Escribe el precio de tu producto:</label>
+                <input id="inputPriceArrow" type="number">
+
+                <label for="InputCouponArrow">Escribe tu cupon aqui:</label>
+                <input id="InputCouponArrow" type="text">
+
+                <h2 id="resultPriceArrow"></h2>
+
+                <button type="button" onclick="onclickButtonPriceArrow()">
+                    Carcular el precio con descuento 
+                </button>
+            </form>
+        </section>
+    </div>
+    <footer class="foot-pag">
+        <div class="grup-one">
+            <div class="box">
+                <h2>SAMUEL ARANDIA</h2>
+                <p>ALL WE NEED IS LOVE</p>
+            </div>
+            <div class="box">
+                <h2>Contactos</h2>
+                <div class="red-social">
+                    <a href="https://github.com/samuelArandia" class="fa-brands fa-github fa-3x"></a>
+                    <a href="https://linkedin.com/in/samuel-arandia" class="fa-brands fa-linkedin fa-3x"></a>
+                    <a href="https://twitter.com/Arandia_samuel" class="fa-brands fa-twitter fa-3x"></a>
+                    <a href="https://www.facebook.com/samuel.arandia" class="fa-brands fa-facebook fa-3x"></a>
+                </div>
+            </div>
+        </div>   
+        <div class="grup-two">
+            <small>&copy;2022 <b>Slee Dw</b> - Todos los derechos reservados.</small>
+        </div>
+    </footer>  
+        <script src="./descuentos.js"></script>
+        <script src="https://kit.fontawesome.com/515e56cb2c.js" crossorigin="anonymous"></script>
+</body>
+</html>

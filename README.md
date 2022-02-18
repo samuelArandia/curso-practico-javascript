@@ -8,3 +8,9 @@ Curso de platzi de JavaScript
 -Segundo paso: Implementar las fórmulas en JavaScript
 -Tercer paso: Crear funciones 
 -Cuarto paso: integrar html con javaScript
+## Taller #2: Porcentajes y descuentos  
+
+-Primer paso: definir las formulas 
+-Segundo paso: Implementar las fórmulas en JavaScript
+-Tercer paso: Crear funciones 
+-Cuarto paso: integrar html con javaScript
