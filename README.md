@@ -14,3 +14,16 @@ Curso de platzi de JavaScript
 -Segundo paso: Implementar las fórmulas en JavaScript
 -Tercer paso: Crear funciones 
 -Cuarto paso: integrar html con javaScript
+
+## Taller #3: Promedio, mediana y moda   
+
+-Primer paso: definir las formulas 
+-Segundo paso: Implementar las fórmulas en JavaScript
+-Tercer paso: Crear funciones 
+-Cuarto paso: integrar html con javaScript
+## Taller #4: Análisis de salarios 
+
+-Primer paso: definir las formulas 
+-Segundo paso: Implementar las fórmulas en JavaScript
+-Tercer paso: Crear funciones 
+-Cuarto paso: integrar html con javaScript
