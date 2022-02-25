@@ -1,6 +1,6 @@
 # curso-practico-javascript
 Curso de platzi de JavaScript
-
+https://samuelarandia.github.io/curso-practico-javascript/index.html
 ...
 
 <img src="./assets/Screenshot_20.png" />
