@@ -1,6 +1,9 @@
 # curso-practico-javascript
 Curso de platzi de JavaScript
-<img width="300px" src="./assets/Screenshot_20.png" />
+
+...
+
+<img width="800px" height="100vh"  src="./assets/Screenshot_20.png" />
 
 ...
 ## Taller #1: Figuras Geométricas 
