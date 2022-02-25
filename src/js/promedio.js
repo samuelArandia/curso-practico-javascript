@@ -12,5 +12,3 @@ function carcularPromedio(lista) {
     const promedioLista = sumaLista / lista.length;
     return promedioLista;
 }
-
-

@@ -3,40 +3,74 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="./src/css/styleFiguras.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+Antique:wght@300;500&display=swap" rel="stylesheet"> 
+
     <title>Home</title>
 </head>
-<body>
+<body class="index">
     <header>
         <h1>Taller de JavaScript</h1>
+        <img src="./assets/js-challenge-logo.png" alt="js">
     </header>   
-
-    <section>
-        <nav>
-            <ol>
-                <li>
-                    <a href="./figuras.html">Figuras Geometricas</a>
-                </li>
-                <li>
-                    <a href="./descuentos.html">Descuentos</a>
-                </li>
-                <li>
-                    <a href="./moda.html">Moda</a>
-                </li>
-                <li>
-                    <a href="./mediana.html">Mediana</a>
-                </li>
-                <li>
-                    <a href="./otroPromedios.html">Promedio</a>
-                </li>
-                <li>
-                    <a href="./promedio.html">Promedio</a>
-                </li>
-                <li>
-                    <a href="./salarios.html">Salarios</a>
-                </li>
-            </ol>
-        </nav>
-    </section>
+        <!-- Nav Works  -->
+            <aside>
+                <section class="card__item" onclick="location.href='./src/html/figuras.html'">
+                    <img src="./assets/circle.png" alt=""><img src="./assets/cube.png" alt=""><img src="./assets/triangle.png" alt="">
+                    <div>
+                       <h1>TALLER #1</h1>
+                            <h2>Figuras Geometricas</h2>
+                                <p>Calculo básicos para Cuadrados, Triangulos y Circulos.</p>
+                    </div>
+                </section>
+                <section class="card__item" onclick="location.href='./src/html/descuentos.html'">
+                    <img src="./assets/price.png" alt=""><img src="./assets/discount.png" alt="">
+                    <div>
+                        <h1>TALLER #2</h1>
+                            <h2>Precios y descuentos</h2>
+                                <p>Calculo básicos para precios, descuentos y cupones de pago.</p>
+                    </div>
+                </section>
+                <!-- <section class="card__item" onclick="location.href='./taller-3.html'">
+                    <img src="./assets/discount.png" alt="">
+                    <div>
+                        <h1>TALLER #3</h1>
+                            <h2>Promedios, Moda y Mediana</h2>
+                                 <p>Calculos básicos y avanzados.</p>
+                    </div>
+                </section>
+                <section class="card__item" onclick="location.href='./taller-4.html'">
+                    <img src="./assets/dollar.png" alt="">
+                    <div>
+                        <h1>TALLER #4</h1>
+                            <h2>Analisis Salarial</h2>
+                                <p>Calculo básicos para trabajar con Salarios (medianas y top 10%).</p>
+                    </div>
+                </section> -->
+            </aside>
+    <footer class="foot-pag">
+        <div class="grup-one">
+            <div class="box">
+                <h2>SAMUEL ARANDIA</h2>
+                <p>ALL WE NEED IS LOVE</p>
+            </div>
+            <div class="box">
+                <h2>Contactos</h2>
+                <div class="red-social">
+                    <a href="https://github.com/samuelArandia" class="fa-brands fa-github fa-3x"></a>
+                    <a href="https://linkedin.com/in/samuel-arandia" class="fa-brands fa-linkedin fa-3x"></a>
+                    <a href="https://twitter.com/Arandia_samuel" class="fa-brands fa-twitter fa-3x"></a>
+                    <a href="https://www.facebook.com/samuel.arandia" class="fa-brands fa-facebook fa-3x"></a>
+                </div>
+            </div>
+        </div>   
+        <div class="grup-two">
+            <small>&copy;2022 <b>Slee Dw</b> - Todos los derechos reservados.</small>
+        </div>
+    </footer>  
+    <script src="https://kit.fontawesome.com/515e56cb2c.js" crossorigin="anonymous"></script>
 </body>
 </html>
