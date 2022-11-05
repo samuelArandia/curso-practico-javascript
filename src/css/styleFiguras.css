@@ -160,7 +160,6 @@ input{
 }
 aside{
   display: grid;
-  grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr ;
   margin:100px;
   place-items:center;
@@ -169,9 +168,10 @@ aside{
   box-shadow: rgba(223, 219, 15, 0.2) 0px 8px 24px;
   border-radius: 1rem;
   width: 50rem;
-  height: 35vh;
+  height: 40vh;
   text-align: center;
   cursor: pointer;
+
 }
 
 .card__item h1{
